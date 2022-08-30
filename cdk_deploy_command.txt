@@ -1,0 +1,7 @@
+cdk deploy {STACK_NAME} 
+    --profile {PROFILE_NAME}
+    --outputs-file {OUTPUT_FILE_PATH.JSON}
+
+
+examples:
+cdk deploy EcsClusterTemplateStack --profile alwazan --outputs-file ./environments/EcsClusterTemplateStackOutputs.json

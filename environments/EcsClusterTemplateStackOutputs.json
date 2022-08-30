@@ -1,0 +1,7 @@
+{
+  "EcsClusterTemplateStack": {
+    "sgecsstacksg": "sg-02b6c7f5cbf9804c1",
+    "ecsclustername": "EcsClusterTemplateStack-javascriptcluster0C0E38C8-mMs2EWsGNPTb",
+    "ecsvpcid": "vpc-073f4dfb5ce08c727"
+  }
+}

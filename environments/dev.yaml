@@ -1,0 +1,14 @@
+env: dev
+aws:
+  account: "240041616447"
+  region: "us-east-1"
+
+ecommerceapi:
+  microservice_name: ecommerceapi_service
+  code_commit_branch_name: master
+  code_commit_s3_bucket_for_code: ecommerce-api-service-bucket
+  code_commit_s3_object_key_for_code: EcommerceApi.zip
+  vpc_id: vpc-073f4dfb5ce08c727
+  ecs_sg_id: sg-02b6c7f5cbf9804c1
+  ecs_name: EcsClusterTemplateStack-javascriptcluster0C0E38C8-mMs2EWsGNPTb
+  
